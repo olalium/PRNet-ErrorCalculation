@@ -6,6 +6,7 @@
 * Python 3.7
 * Numpy, skimage, scipy
 * matplotlib for showing results
+* TensorFlow >= 1.4
 * dlib
 
 Clone the project repository. 
@@ -15,7 +16,7 @@ git clone https://github.com/olalium/front-and-profile-3D-reconstruction.git
 
 ### Installing PRNet
 
-1. clone the repository in the `src/` folder
+1. clone the PRNet repository in the `src/` folder
 ```bash
 git clone https://github.com/YadiraF/PRNet
 ``` 
