@@ -6,6 +6,12 @@
 * Python 3.7
 * Numpy, skimage, scipy
 * matplotlib for showing results
+* dlib
+
+Clone the project repository. 
+```bash
+git clone https://github.com/olalium/front-and-profile-3D-reconstruction.git
+``` 
 
 ### Installing PRNet
 
@@ -15,10 +21,9 @@ git clone https://github.com/YadiraF/PRNet
 ``` 
 2. download the PRN trained model(links found in PRNet readme) and put it in `PRNet/Data/net-data`
 
-### Installing Dlib
+### Installing ICP implementation
 
-* without dlib
+1. clone the ICP repositoriy implemented by Clay Flannigan into the `src/` folder.
 ```bash
-pip install dlib
-```
-
+git clone https://github.com/ClayFlannigan/icp
+``` 
