@@ -6,19 +6,19 @@
 * Python 3.7
 * Numpy, skimage, scipy
 * matplotlib for showing results
+* dlib
 
 ### Installing PRNet
 
-1. clone the repository in the src/ folder
+1. clone the repository in the `src/` folder
 ```bash
 git clone https://github.com/YadiraF/PRNet
 ``` 
-2. download the PRN trained model(links found in PRNet readme) and put it in PRNet/Data/net-data
+2. download the PRN trained model(links found in PRNet readme) and put it in `PRNet/Data/net-data`
 
-### Installing Dlib
+### Installing ICP implementation
 
-* without dlib
+1. clone the ClayFlannigan repositoriy into the `src/` folder.
 ```bash
-pip install dlib
-```
-
+git clone https://github.com/ClayFlannigan/icp
+``` 
