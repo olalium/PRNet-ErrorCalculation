@@ -8,9 +8,14 @@
 * matplotlib for showing results
 * dlib
 
+Clone the project repository. 
+```bash
+git clone https://github.com/olalium/front-and-profile-3D-reconstruction.git
+``` 
+
 ### Installing PRNet
 
-1. clone the repository in the `src/` folder
+1. clone the PRNet repository in the `src/` folder
 ```bash
 git clone https://github.com/YadiraF/PRNet
 ``` 
@@ -18,7 +23,7 @@ git clone https://github.com/YadiraF/PRNet
 
 ### Installing ICP implementation
 
-1. clone the ClayFlannigan repositoriy into the `src/` folder.
+1. clone the ICP repositoriy implemented by Clay Flannigan into the `src/` folder.
 ```bash
 git clone https://github.com/ClayFlannigan/icp
 ``` 
