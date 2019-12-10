@@ -9,11 +9,11 @@
 
 ### Installing PRNet
 
-1. clone the repository in the src/ folder
+1. clone the repository in the `src/` folder
 ```bash
 git clone https://github.com/YadiraF/PRNet
 ``` 
-2. download the PRN trained model(links found in PRNet readme) and put it in PRNet/Data/net-data
+2. download the PRN trained model(links found in PRNet readme) and put it in `PRNet/Data/net-data`
 
 ### Installing Dlib
 

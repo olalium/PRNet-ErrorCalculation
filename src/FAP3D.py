@@ -6,7 +6,7 @@ import random
 from argparse import ArgumentParser
 from ast import literal_eval
 from glob import glob
-from icp import icp
+from icp.icp import icp
 from math import degrees
 from PRNet.api import PRN
 from PRNet.utils.write import write_obj_with_colors
@@ -312,7 +312,7 @@ def get_300W_front_and_profile_image_paths_dict(image_folder, image_angle1 = 0, 
     # images must be in correct format: HELEN_232194_1_0.jpg, HELEN_232194_1_0.mat, IBUG_2908549_1_4.jpg etc...
     # { "face id" : ["image path front", "image path profile"]}
     image_path_dict = dict()
-    image_paths = glob(image_folder + '\\*.jpg')
+    image_paths = glob(image_folder + '/*.jpg')
     num_paths = len(image_paths)
     for i, file_name in enumerate(image_paths):
         stdout.write("\rfile %i out of %i" % (i, num_paths))
