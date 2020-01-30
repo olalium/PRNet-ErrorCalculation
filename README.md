@@ -12,7 +12,7 @@ Code for calculating the error of PRNet compared to ground truth using point-to-
 
 Clone the project repository. 
 ```bash
-https://github.com/olalium/PRN-ErrorCalculation.git
+https://github.com/olalium/PRNet-ErrorCalculation.git
 ``` 
 
 ### Installing PRNet
