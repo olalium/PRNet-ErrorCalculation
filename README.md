@@ -12,7 +12,7 @@ Code for calculating the error of PRNet compared to ground truth using point-to-
 
 Clone the project repository. 
 ```bash
-git clone https://github.com/olalium/front-and-profile-3D-reconstruction.git
+https://github.com/olalium/PRN-ErrorCalculation.git
 ``` 
 
 ### Installing PRNet
