@@ -1,4 +1,5 @@
-# front-and-profile-3D-reconstruction
+# Error calculation for PRNet (front, side and average)
+Code for calculating the error of PRNet compared to ground truth using point-to-point euclidean distance divided by the interocular distance as metric. User can choose the angle of the input image and number of images to evaluate.
 
 ## Getting Started
 
